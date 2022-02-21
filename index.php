@@ -1,4 +1,5 @@
 <?php
+    // skills and tools
     $skills = array(
         array( 'skill-name' => 'JavaScript', 'skill-con' => '<i class="fa-brands fa-js"></i>'),
         array( 'skill-name' => 'HTML5', 'skill-con' => '<i class="fa-brands fa-html5"></i>'),
@@ -14,17 +15,17 @@
         array( 'skill-name' => 'Shopify', 'skill-con' => '<i class="fa-brands fa-shopify"></i>'),
         array( 'skill-name' => 'Bootstrap', 'skill-con' => '<i class="fa-brands fa-bootstrap"></i>')
     );
-
+    // portfolios
     $portfolios = array(
-        array( 'port-img' => 'developer.jpg', 'port-title' => 'Material Design', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
-        array( 'port-img' => 'contact-info.jpg', 'port-title' => 'Material Design', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
-        array( 'port-img' => 'adham-dannaway-designer-coder.jpg', 'port-title' => 'Material Design', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
-        array( 'port-img' => 'pexels-photo-1181673.jpeg', 'port-title' => 'Material Design', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
-        array( 'port-img' => 'developer.jpg', 'port-title' => 'Material Design', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
-        array( 'port-img' => 'developer.jpg', 'port-title' => 'Material Design', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
-        array( 'port-img' => 'contact.jpg', 'port-title' => 'Material Design', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
-        array( 'port-img' => 'pexels-photo-1181673.jpeg', 'port-title', 'port-title'  => 'Material Design', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
-        array( 'port-img' => 'developer.jpg', 'port-title' => 'Material Design', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
+        array( 'port-img' => 'startupoasis.png', 'port-title' => 'Startups Oasis', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
+        array( 'port-img' => 'honimunn.png', 'port-title' => 'Honimunn', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
+        array( 'port-img' => 'lafinca.png', 'port-title' => 'LaFinca', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
+        array( 'port-img' => 'lafinca-sky-villas.png', 'port-title' => 'LaFinca Sky Villas', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
+        array( 'port-img' => 'runnics.png', 'port-title' => 'Runnics', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
+        array( 'port-img' => 'firpack.png', 'port-title' => 'Firpack', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
+        array( 'port-img' => 'dna-testing-miami.png', 'port-title' => 'DNA Testing Miami', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
+        array( 'port-img' => 'hypefit.png', 'port-title', 'port-title'  => 'Hypefit', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
+        array( 'port-img' => 'startupoasis.png', 'port-title' => 'Material Design', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
         
     );
 ?>
@@ -34,7 +35,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio ElianaB</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -57,7 +58,7 @@
                 <nav class="navbar navbar-expand-lg navbar-light pd-left-60 pd-right-60">
                     <div class="container-fluid p-0">
                         <div>
-                            <a class="navbar-brand navLogo" href="#"><img src="img/LogoFInalMErg.png" alt=""></a>
+                            <a class="navbar-brand navLogo" href="/"><img src="img/LogoFInalMErg.png" alt=""></a>
                         </div>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                             <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-end">
@@ -71,7 +72,7 @@
                                     <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#skills">Portfolio</a>
+                                    <a class="nav-link active" aria-current="page" href="#portfolio">Portfolio</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
@@ -186,9 +187,15 @@
                                         <img src="../img/<?php echo $port['port-img'];?>"/>
                                         <h1 class="title-port"><?php echo $port['port-title'];?></h1>
                                         <section class="content">
-                                        <h1><?php echo $port['port-title'];?></h1>
+                                            <h1><?php echo $port['port-title'];?></h1>
                                             <p> <?php echo $port['port-text'];?></p>
-                                            <a class="read-more" href="<?php echo $port['port-link'];?>"><span>Read More</span></a>
+                                            <a class="read-more" href="<?php echo $port['port-link'];?>">
+                                                <span>Read More</span>
+                                                <svg width="13px" height="10px" viewBox="0 0 13 10">
+                                                    <path d="M1,5 L11,5"></path>
+                                                    <polyline points="8 1 12 5 8 9"></polyline>
+                                                </svg>
+                                            </a>
                                         </section>
                                     </div>
                             <?php }
@@ -202,9 +209,8 @@
                        
             </div>
         </section>
-      
         <section id="contact" >
-            <div class="under-inner two pd-top-bottom">
+            <div class="under-inner two pd-left-60 pd-right-60 pd-top-bottom">
                 <h5 class="sub-contact  sub-title text-center">Contact</h5>
                 <h2 class="title-contact text-center  title-section">Lorem Ipsum is simply dummy text </h2>
                 <p class="text-center">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s:</p>
@@ -217,5 +223,17 @@
             
         </section> 
     </main>
+
+    <footer>
+        <div class="footer pd-left-60 pd-right-60 d-flex justify-content-between align-items-center container">
+            <span>Copyright © 2022</span>
+            <a class="navbar-brand navLogo" href="/"><img src="img/LogoFInalMErg.png" alt=""></a>
+            <div class="icons-contact">
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
