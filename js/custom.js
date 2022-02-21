@@ -257,7 +257,7 @@
             $(window).scroll( () => {
                 
                 var windowTop = $(window).scrollTop();
-                console.log(windowTop > 30);
+               
                 (windowTop > 30) ? $('header').addClass('fixed') : $('header').removeClass('fixed');
                 (windowTop < 30) ? $('header').addClass('absolute') : $('header').removeClass('absolute');
             });
