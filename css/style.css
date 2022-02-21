@@ -1,0 +1,535 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width: 1440px;
+    margin: auto;
+    width: 100%;
+    padding: 0;
+}
+.pd-left-60{
+    padding-left: 60px;
+}
+.pd-right-60{
+    padding-right: 60px;
+}
+.pd-top-bottom{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.col-12{
+    flex: 0 0 auto;
+    width: 100%;
+    padding: 0;
+}
+section{
+    padding: 0;
+    margin: 0;
+}
+.space{
+    height: 40px;    
+}
+*{
+    font-family: monospace;
+}
+p{
+    font-size: 16px;
+}
+/* section prin */
+.face .designer-img, .face .coder-img {
+    width: 420px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    background: url(../img/sprite-home.png) 0 0 no-repeat;
+    display: block;
+    z-index: 1;
+}
+.face .designer-img {
+    background-position: 0px -600px;
+    left: 100px;
+}
+.face .designer-img, .face .coder-img, .face .designer-bg, .face .coder-bg, .face .coder p, .face .designer p {
+    display: none;
+}
+.face .coder-img {
+    background-position: 100% 0px;
+    right: 100px;
+}
+.face .designer-bg {
+    left: 100px;
+}
+.face .coder-bg {
+    right: 100px;
+    background-position: 100% -1300px;
+}
+ #content,  #content-detail,  #coder-img,  #designer-img,  #coder,  #designer,  #coder-bg,  #designer-bg, #face-img {
+    opacity: 0;
+}
+#face {
+    width: 1040px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+#section{
+    width: 100%;
+    height: 600px;
+    background: url(../img/font.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.content-text{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-flow: column;
+    width: 34%;
+    margin: 0 0 0 auto!important;
+}
+.content-text h2{
+    text-align: right;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.content-text h1{ 
+    text-align: right;
+    font-size: 54px;
+    font-family: smoothie_shoppe;
+    color: #94342B;
+    font-weight: 700;
+}
+.content-text h3{ 
+    text-align: right;
+    font-size: 26px;
+    font-weight: 900;
+}
+.content-text p{ 
+    text-align: right;
+    font-size: 16px;
+    margin-bottom: 26px;
+}
+
+.button-51 {
+  background-color: transparent;
+  border: 1px solid #266DB6;
+  box-sizing: border-box;
+  color: #00132C;
+  font-family: "Avenir Next LT W01 Bold",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-51:hover,
+.button-51:active {
+  outline: 0;
+}
+
+.button-51:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-51:before {
+  background-color: #D5EDF6;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.button-51:hover:before {
+  background-color: #6DCFF6;
+}
+.sub-title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: uppercase;    
+}
+.title-section{ 
+    font-size: 40px;
+    font-family: smoothie_shoppe;
+    color: #94342B;
+    font-weight: 700;
+}
+/* about */
+.section-about{
+    align-items: center;
+}
+.title-about-c{
+    font-size: 20px;
+    color: #D58A6E;
+    font-weight: 700;
+}
+.image-profile{
+    width: 100%;
+}
+.cta-about{
+    padding: 8px 22px;
+}
+.cta-about:before{
+    top: 0px;
+    width: 35px;
+    height: 35px;
+}
+.cta-about span{
+    font-weight: 600;
+}
+/* header */
+header.fixed{
+    position: fixed;
+}
+header.absolute{
+    position: absolute;
+}
+header{
+    width: 100%;
+    box-shadow: 0px 0px 7px #67705d;
+    z-index: 100;
+    background: #fdf3ff80;
+    backdrop-filter: blur(5px);
+}
+li.nav-item {
+    margin: 0 0 0 50px;
+    position: relative;
+}
+li.nav-item a.nav-link {
+    font-family: smoothie_shoppe;
+    font-size: 23px;
+    padding: 0!important;
+}
+li.nav-item a:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #94342B;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease-in-out;
+}
+li.nav-item a:hover:before{
+    transform: scaleX(1);
+}
+.navLogo img{
+    height: 56px;
+}
+a{
+    text-decoration: none;
+}
+.cta-hero{
+    padding: 19px 22px;
+}
+.cta {
+    position: relative;
+    margin: auto;
+    transition: all 0.2s ease;
+    color: #000;
+}
+.cta:hover{
+    color: #ffffff;
+}
+.cta:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: #D58A6E;
+   
+    transition: all 0.3s ease;
+}
+.cta-hero:before{
+    top: 4px;
+    width: 56px;
+    height: 52px;
+}
+.cta:active {
+    transform: scale(0.96);
+}
+.cta:hover:before {
+    width: 100%;
+    background: #94342B;
+}
+.cta:hover svg {
+    transform: translateX(0);
+}
+.cta span {
+    position: relative;
+    line-height: 18px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: 900;
+}
+.cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #111;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+.cta:hover svg{
+    stroke: #ffffff;
+}
+/* skills and tools */
+.skills-tools{
+    margin: 0;
+    background: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.skills-tools .card-icon .text {
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 8px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.skills-tools .col {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.skills-tools .card-icon{
+    margin: 10px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.3s ease;
+    max-width: 100px;
+    width: 100px;
+}
+.skills-tools .card-icon .icon-c{
+    font-size: 39px;
+    background: linear-gradient(90deg, #D58A6E 0%, #d58a6e61 40%, rgba(0, 0, 0, 0.28) 60%);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: all 0.8s ease;
+    background-position: 0px;
+    background-size: 200px;
+    height: 70px;
+    width: 70px;
+}
+.skills-tools  .card-icon:hover .icon-c{
+    background: #94342B;
+    background-position: -120px;
+    transition: all 0.3s ease;
+}
+/* contact */
+#contact{
+	height: 60vh;
+	width: 100%;
+	background: #222;
+    background-image: url(../img/background-contact.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+}
+#contact .under-inner{
+    height: 100%;
+    /* background: #00000073; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#contact .fixed-contact{
+	position: absolute;
+	top: -100%;
+	left: -100%;
+	opacity: 0;
+	transition: opacity 100ms linear;
+	z-index: 0;
+	margin: 0;
+    color: white;
+}
+
+#contact  .locked{
+	position: fixed;
+	left: 10%;
+	top: 50%;
+	transform: translateY(-50%);
+	opacity: 1;
+	transition: opacity 100ms linear;
+
+}
+.sub-contact, #contact p{
+    color: #000;
+} 
+.icons-contact i {
+    color: #000;
+    font-size: 36px;
+    margin: auto 10px;
+}
+/* portfolio */
+.cardview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    transform: translateY(0);
+    transition: transform 0.6s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.col-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: 300px;
+    grid-gap: 1.875rem;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.cardview img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translateZ(0);
+    transition: transform 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.cardview:nth-child(2), .cardview:nth-child(4), .cardview:nth-child(7) {
+    grid-row: span 2;
+}
+
+.cardview .content {
+    transform: translateX(-120%);
+    padding: 20px;
+    position: absolute;
+    transition: all 1.5s ease;
+    height: 100%;
+    width: 100%;
+    background: #000000bd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.cardview:hover .content {
+	transition: all 1s ease;
+	transform: translate(0, 0);
+}
+
+.cardview .content h1 {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+    color: #D58A6E;
+    font-weight: 700;
+}
+.cardview .title-port{
+    border-bottom: 5px solid #94342B;
+    padding: 11px;
+    bottom: 17px;
+    position: absolute;
+    transition: all 0.45s ease;
+    width: 100%;
+    box-shadow: 0px 0px 7px #67705d;
+    background: #fdf3ff80;
+    backdrop-filter: blur(5px);
+    font-size: 20px;
+    color: #000000;
+    font-weight: 700;
+    text-align: center;
+}
+.cardview  p{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+.cardview:hover .title-port{
+    transform: translateX(-120%);
+}
+.cardview .read-more{
+    position: relative;
+    margin: auto;
+    transition: all 0.2s ease;
+    color: #ffffff;
+    padding: 10px;
+}
+.cardview .read-more:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: #D58A6E;
+    transition: all 0.3s ease;
+    top: 4px;
+    width: 35px;
+    height: 35px;
+}
+.cardview .read-more span{
+    position: relative;
+    line-height: 18px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: 900;
+}
+.cardview .read-more:hover:before {
+    width: 100%;
+    background: #94342B;
+}
+/******************* fonts custom **********************/
+
+@font-face{
+    font-family: 'kingsland';
+    src: url('../fonts/kingsland/Kingsland-Regular.otf'), 
+         url('../fonts/kingsland//Kingsland-Regular.ttf'),
+         url('../fonts/kingsland//Kingsland-Regular.woff'),
+         url('../fonts/kingsland//Kingsland-Regular.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'rockstar';
+    src: url('../fonts/rockstar/Rockstar-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'smoothie_shoppe';
+    src: url('../fonts/smoothie_shoppe/Smoothie_Shoppe.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
