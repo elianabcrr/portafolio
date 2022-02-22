@@ -259,7 +259,7 @@
                 var windowTop = $(window).scrollTop();
                
                 (windowTop > 30) ? $('header').addClass('fixed') : $('header').removeClass('fixed');
-                (windowTop < 30) ? $('header').addClass('absolute') : $('header').removeClass('absolute');
+                // (windowTop < 30) ? $('header').addClass('absolute') : $('header').removeClass('absolute');
             });
            
 
@@ -278,7 +278,15 @@
                     }
                 }, { offset: '60%' });
             });
-            //End Waypoints
+            $("#checkbox-menu").change(function(){
+                if ($('#checkbox-menu').prop('checked')){
+                    $('#menu-movil').addClass('menu-movil-active');
+                }else{
+                    $('#menu-movil').removeClass('menu-movil-active');
+                }
+            });
+           
+           
         });
         
         

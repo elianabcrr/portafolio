@@ -1,6 +1,6 @@
         <section id="section">
             <div class="row container">
-                <div class="col-12">
+                <div class="col-12" style="position: relative;">
                     <div class="content-text pd-left-60 pd-right-60">
                         <h2>HI THERE I'M</h2>
                         <h1>Eliana Becerra</h1>

@@ -33,15 +33,15 @@ if ($_SERVER['SERVER_NAME']=='direccionIp') {
 );
 // portfolios
 $portfolios = array(
-    array( 'port-img' => 'startupoasis.png', 'port-title' => 'Startups Oasis', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
-    array( 'port-img' => 'honimunn.png', 'port-title' => 'Honimunn', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
-    array( 'port-img' => 'lafinca.png', 'port-title' => 'LaFinca', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
-    array( 'port-img' => 'lafinca-sky-villas.png', 'port-title' => 'LaFinca Sky Villas', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
-    array( 'port-img' => 'runnics.png', 'port-title' => 'Runnics', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
-    array( 'port-img' => 'firpack.png', 'port-title' => 'Firpack', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
-    array( 'port-img' => 'dna-testing-miami.png', 'port-title' => 'DNA Testing Miami', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
-    array( 'port-img' => 'hypefit.png', 'port-title', 'port-title'  => 'Hypefit', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
-    array( 'port-img' => 'startupoasis.png', 'port-title' => 'Material Design', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://freefrontend.com/jquery-parallax/#parallax-examples'),
+    array( 'port-img' => 'startupoasis.png', 'port-title' => 'Startups Oasis', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://startupsoasis.com/'),
+    array( 'port-img' => 'honimunn.png', 'port-title' => 'Honimunn', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://honimunn.com/'),
+    array( 'port-img' => 'lafinca.png', 'port-title' => 'LaFinca', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://alquiler.lafincarealestate.com/'),
+    array( 'port-img' => 'lafinca-sky-villas.png', 'port-title' => 'LaFinca Sky Villas', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://lafincarealestate.com/'),
+    array( 'port-img' => 'runnics.png', 'port-title' => 'Runnics', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://www.runnics.com/'),
+    array( 'port-img' => 'firpack.png', 'port-title' => 'Firpack', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://firpack.com/'),
+    array( 'port-img' => 'dna-testing-miami.png', 'port-title' => 'DNA Testing Miami', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://dnatestingmiami.com/'),
+    array( 'port-img' => 'hypefit.png', 'port-title', 'port-title'  => 'Hypefit', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://www.hypefit.es/'),
+    array( 'port-img' => 'ofituria.png', 'port-title' => 'Ofituria', 'port-text' => 'mauris proin sed nibh magna ipsum sollicitudin urna lobortis eros in ac malesuada bibendum...', 'port-link'=>'https://ofituria.com/'),
     
 );
 ?>
