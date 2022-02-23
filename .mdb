@@ -1,0 +1,11 @@
+{
+  "projectName": "porfolioeb",
+  "meta": {
+    "type": "backend"
+  },
+  "packageManager": "npm",
+  "hash": "d6fb302e",
+  "backend": {
+    "platform": "php7.4"
+  }
+}

@@ -14,12 +14,12 @@
                             <?php
                                 foreach($portfolios as $port){ ?>
                                     <div class="cardview">
-                                        <img src="<?php echo SERVER?>img/<?php echo $port['port-img'];?>"/>
+                                        <img src="img/<?php echo $port['port-img'];?>"/>
                                         <h1 class="title-port"><?php echo $port['port-title'];?></h1>
                                         <section class="content">
                                             <h1><?php echo $port['port-title'];?></h1>
                                             <p> <?php echo $port['port-text'];?></p>
-                                            <a class="read-more" href="<?php echo $port['port-link'];?>">
+                                            <a class="read-more" rel="nofollow" href="<?php echo $port['port-link'];?>">
                                                 <span>Read More</span>
                                                 <svg width="13px" height="10px" viewBox="0 0 13 10">
                                                     <path d="M1,5 L11,5"></path>

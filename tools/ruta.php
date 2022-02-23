@@ -1,19 +1,5 @@
 <?php
-if (($_SERVER['SERVER_NAME']=='localhost') AND ($_SERVER['SERVER_PORT']=='80')){
-    define('SERVER', "http://" . $_SERVER['SERVER_NAME'] . "/portafolio/");
-}
 
-if (($_SERVER['SERVER_NAME']=='localhost') AND ($_SERVER['SERVER_PORT']=='8080')){
-     define('SERVER', "http://" . $_SERVER['SERVER_NAME'] . ":8080/portafolio/");
-}
-// Si estas ejecutando el sitio desde un hosting
-if ($_SERVER['SERVER_NAME']=='nombreDeDominio.com') {
-    define('SERVER', "http://nombreDeDominio.com/");
-}
-// Si estas ejecutando el sitio desde una direccion ip
-if ($_SERVER['SERVER_NAME']=='direccionIp') {    
-    define('SERVER', "http://direccionIp/");
-}
 
   // skills and tools
   $skills = array(

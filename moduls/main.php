@@ -2,7 +2,7 @@
         <div class="row container  pd-left-60 pd-right-60">
             <div class="col-12 d-flex justify-content-between">
                 <div>
-                    <a class="navbar-brand navLogo" href="#section"><img src="<?php echo SERVER?>img/LogoFInalMErg.png" alt=""></a>
+                    <a class="navbar-brand navLogo" href="#section"><img src="img/LogoFInalMErg.png" alt=""></a>
                 </div>
                 <nav class="navbar desktop-nav navbar-expand-lg navbar-light">
                     <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-end">
@@ -37,7 +37,7 @@
 
     <div id="menu-movil">
         <div>
-            <a class="navbar-brand navLogo" href="#section"><img src="<?php echo SERVER?>img/LogoFInalMErg.png" alt=""></a>
+            <a class="navbar-brand navLogo" href="#section"><img src="img/LogoFInalMErg.png" alt=""></a>
         </div>
         <ul class="menu-movil" >
             <li class="nav-item">
