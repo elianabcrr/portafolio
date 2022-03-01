@@ -7,19 +7,16 @@
                 <nav class="navbar desktop-nav navbar-expand-lg navbar-light">
                     <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-end">
                         <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="#section">Home</a>
+                            <a class="nav-link " aria-current="page" href="#about">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="#about">About</a>
+                            <a class="nav-link " aria-current="page" href="#skills">Herramientas y habilidades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="#skills">Skills</a>
+                            <a class="nav-link " aria-current="page" href="#portfolio">Portafolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="#contact">Contact</a>
+                            <a class="nav-link " aria-current="page" href="#contact">Contacto</a>
                         </li>
                     </ul>
                 </nav>

@@ -2,13 +2,14 @@
             <div class="row container">
                 <div class="col-12" style="position: relative;">
                     <div class="content-text pd-left-60 pd-right-60">
-                        <h2>HI THERE I'M</h2>
+                        <h2>Hola, soy</h2>
                         <h1>Eliana Becerra</h1>
-                        <h3>UI/UX DESIGNER + DEVELOPER </h3>
-                        <p>I’m a professional UI/UX designer with front end development skills based in Lagos.</p>
+                        <h3>Desarrollador independiente </h3>
+                        <p>Trabajo en el desarrollo de software independientemente, 
+                            principalmente en el área de frontend.</p>
                         <div>
-                            <a href="#" class="cta cta-hero">
-                                <span>hire me</span>
+                            <a href="#contact" class="cta cta-hero">
+                                <span>contacto</span>
                                 <svg width="13px" height="10px" viewBox="0 0 13 10">
                                     <path d="M1,5 L11,5"></path>
                                     <polyline points="8 1 12 5 8 9"></polyline>

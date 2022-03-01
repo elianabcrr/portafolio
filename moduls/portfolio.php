@@ -3,9 +3,10 @@
                 <div class="col-12">
                     <div class="row">
                         <div class="col-12">
-                            <h5 class="sub-skills text-center  sub-title">Portfolio</h5>
-                            <h2 class="title-skills text-center title-section">Lorem Ipsum is simply dummy text </h2>
-                            <p class="text-center">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s:</p>
+                            <h5 class="sub-skills text-center  sub-title">Portafolio</h5>
+                            <h2 class="title-skills text-center title-section">Proyectos en los que he trabajado </h2>
+                            <p class="text-center">A continuación una selección de proyectos en los que he tenido el placer <br>
+                                de trabajar y mi aporte en cada uno de ellos</p>
                             <div class="space"></div>
                         </div>
                     </div>
@@ -20,7 +21,7 @@
                                             <h1><?php echo $port['port-title'];?></h1>
                                             <p> <?php echo $port['port-text'];?></p>
                                             <a class="read-more" rel="nofollow" href="<?php echo $port['port-link'];?>">
-                                                <span>Read More</span>
+                                                <span>Ver Sitio</span>
                                                 <svg width="13px" height="10px" viewBox="0 0 13 10">
                                                     <path d="M1,5 L11,5"></path>
                                                     <polyline points="8 1 12 5 8 9"></polyline>
@@ -28,10 +29,7 @@
                                             </a>
                                         </section>
                                     </div>
-                            <?php }
-                            ?>
-                            
-                           
+                            <?php } ?>
                             
                         </div>
                     </div>
